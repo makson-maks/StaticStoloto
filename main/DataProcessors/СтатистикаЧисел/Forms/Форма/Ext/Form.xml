@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.8">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа6" id="100">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основное</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Collapsible</Behavior>
+			<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="101"/>
+			<ChildItems>
+				<InputField name="ВсегоТиражей" id="88">
+					<DataPath>ВсегоТиражей</DataPath>
+					<ContextMenu name="ВсегоТиражейКонтекстноеМеню" id="89"/>
+					<ExtendedTooltip name="ВсегоТиражейРасширеннаяПодсказка" id="90"/>
+				</InputField>
+				<InputField name="НомерПоследнегоТиража" id="91">
+					<DataPath>НомерПоследнегоТиража</DataPath>
+					<ContextMenu name="НомерПоследнегоТиражаКонтекстноеМеню" id="92"/>
+					<ExtendedTooltip name="НомерПоследнегоТиражаРасширеннаяПодсказка" id="93"/>
+				</InputField>
+				<InputField name="КоличествоТиражей" id="83">
+					<DataPath>КоличествоТиражей</DataPath>
+					<ContextMenu name="КоличествоТиражейКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="КоличествоТиражейРасширеннаяПодсказка" id="85"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Группа1" id="23">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="24"/>
+			<ChildItems>
+				<Page name="Группа2" id="25">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Часто выпадающие</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="26"/>
+					<ChildItems>
+						<Button name="ЗапонитьЧастоВыпадающие" id="54">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ЗапонитьЧастоВыпадающие</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Рассчитать</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ЗапонитьЧастоВыпадающиеРасширеннаяПодсказка" id="55"/>
+						</Button>
+						<Table name="ЧислаМаксимальноВыпадавшие" id="1">
+							<ChangeRowSet>false</ChangeRowSet>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ЧислаМаксимальноВыпадавшие</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Часто выпадающие</v8:content>
+								</v8:item>
+							</Title>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ЧислаМаксимальноВыпадавшиеКонтекстноеМеню" id="2"/>
+							<AutoCommandBar name="ЧислаМаксимальноВыпадавшиеКоманднаяПанель" id="3"/>
+							<ExtendedTooltip name="ЧислаМаксимальноВыпадавшиеРасширеннаяПодсказка" id="4"/>
+							<SearchStringAddition name="ЧислаМаксимальноВыпадавшиеСтрокаПоиска" id="5">
+								<AdditionSource>
+									<Item>ЧислаМаксимальноВыпадавшие</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЧислаМаксимальноВыпадавшиеСтрокаПоискаКонтекстноеМеню" id="6"/>
+								<ExtendedTooltip name="ЧислаМаксимальноВыпадавшиеСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ЧислаМаксимальноВыпадавшиеСостояниеПросмотра" id="8">
+								<AdditionSource>
+									<Item>ЧислаМаксимальноВыпадавшие</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ЧислаМаксимальноВыпадавшиеСостояниеПросмотраКонтекстноеМеню" id="9"/>
+								<ExtendedTooltip name="ЧислаМаксимальноВыпадавшиеСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ЧислаМаксимальноВыпадавшиеУправлениеПоиском" id="11">
+								<AdditionSource>
+									<Item>ЧислаМаксимальноВыпадавшие</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ЧислаМаксимальноВыпадавшиеУправлениеПоискомКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="ЧислаМаксимальноВыпадавшиеУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ЧислаМаксимальноВыпадавшиеЧисло" id="17">
+									<DataPath>Объект.ЧислаМаксимальноВыпадавшие.Число</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>2</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ContextMenu name="ЧислаМаксимальноВыпадавшиеЧислоКонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="ЧислаМаксимальноВыпадавшиеЧислоРасширеннаяПодсказка" id="19"/>
+								</InputField>
+								<InputField name="ЧислаМаксимальноВыпадавшиеКоличество" id="20">
+									<DataPath>Объект.ЧислаМаксимальноВыпадавшие.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>4</MaxWidth>
+									<ContextMenu name="ЧислаМаксимальноВыпадавшиеКоличествоКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="ЧислаМаксимальноВыпадавшиеКоличествоРасширеннаяПодсказка" id="22"/>
+								</InputField>
+								<InputField name="ЧислаМаксимальноВыпадавшиеЧастота" id="94">
+									<DataPath>Объект.ЧислаМаксимальноВыпадавшие.Частота</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>3</MaxWidth>
+									<ContextMenu name="ЧислаМаксимальноВыпадавшиеЧастотаКонтекстноеМеню" id="95"/>
+									<ExtendedTooltip name="ЧислаМаксимальноВыпадавшиеЧастотаРасширеннаяПодсказка" id="96"/>
+								</InputField>
+								<InputField name="ЧислаМаксимальноВыпадавшиеКоличествоТиражейНазад" id="97">
+									<DataPath>Объект.ЧислаМаксимальноВыпадавшие.КоличествоТиражейНазад</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>4</MaxWidth>
+									<ContextMenu name="ЧислаМаксимальноВыпадавшиеКоличествоТиражейНазадКонтекстноеМеню" id="98"/>
+									<ExtendedTooltip name="ЧислаМаксимальноВыпадавшиеКоличествоТиражейНазадРасширеннаяПодсказка" id="99"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="Группа3" id="27">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Взаимодействия</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="28"/>
+					<ChildItems>
+						<UsualGroup name="Группа4" id="56">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="57"/>
+							<ChildItems>
+								<InputField name="Число1" id="58">
+									<DataPath>Число1</DataPath>
+									<BackColor>style:ЭлементСтиля1</BackColor>
+									<ContextMenu name="Число1КонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="Число1РасширеннаяПодсказка" id="60"/>
+								</InputField>
+								<InputField name="Число2" id="61">
+									<DataPath>Число2</DataPath>
+									<BackColor>style:ЭлементСтиля1</BackColor>
+									<ContextMenu name="Число2КонтекстноеМеню" id="62"/>
+									<ExtendedTooltip name="Число2РасширеннаяПодсказка" id="63"/>
+								</InputField>
+								<InputField name="Число3" id="64">
+									<DataPath>Число3</DataPath>
+									<BackColor>style:ЭлементСтиля1</BackColor>
+									<ContextMenu name="Число3КонтекстноеМеню" id="65"/>
+									<ExtendedTooltip name="Число3РасширеннаяПодсказка" id="66"/>
+								</InputField>
+								<InputField name="Число4" id="67">
+									<DataPath>Число4</DataPath>
+									<BackColor>style:ЭлементСтиля1</BackColor>
+									<ContextMenu name="Число4КонтекстноеМеню" id="68"/>
+									<ExtendedTooltip name="Число4РасширеннаяПодсказка" id="69"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа5" id="79">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="80"/>
+							<ChildItems>
+								<InputField name="Число5" id="70">
+									<DataPath>Число5</DataPath>
+									<BackColor>style:ЭлементСтиля1</BackColor>
+									<ContextMenu name="Число5КонтекстноеМеню" id="71"/>
+									<ExtendedTooltip name="Число5РасширеннаяПодсказка" id="72"/>
+								</InputField>
+								<InputField name="Число6" id="73">
+									<DataPath>Число6</DataPath>
+									<BackColor>style:ЭлементСтиля1</BackColor>
+									<ContextMenu name="Число6КонтекстноеМеню" id="74"/>
+									<ExtendedTooltip name="Число6РасширеннаяПодсказка" id="75"/>
+								</InputField>
+								<InputField name="Число7" id="76">
+									<DataPath>Число7</DataPath>
+									<BackColor>style:ЭлементСтиля1</BackColor>
+									<ContextMenu name="Число7КонтекстноеМеню" id="77"/>
+									<ExtendedTooltip name="Число7РасширеннаяПодсказка" id="78"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа9" id="106">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="107"/>
+							<ChildItems>
+								<Button name="РассчитатьКомбинации" id="81">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.РассчитатьКомбинации</CommandName>
+									<ExtendedTooltip name="РассчитатьКомбинацииРасширеннаяПодсказка" id="82"/>
+								</Button>
+								<Button name="ОчиститьКомбинации" id="86">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОчиститьКомбинации</CommandName>
+									<ExtendedTooltip name="ОчиститьКомбинацииРасширеннаяПодсказка" id="87"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Pages name="Группа7" id="108">
+							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="109"/>
+							<ChildItems>
+								<Page name="Группа8" id="104">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Частота пар</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="105"/>
+									<ChildItems>
+										<Table name="КомбинауииПарЧисел" id="29">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Объект.КомбинауииПарЧисел</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Комбинации</v8:content>
+												</v8:item>
+											</Title>
+											<CommandSet>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>CancelSearch</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
+												<ExcludedCommand>Find</ExcludedCommand>
+												<ExcludedCommand>OutputList</ExcludedCommand>
+												<ExcludedCommand>SelectAll</ExcludedCommand>
+												<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+												<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+											</CommandSet>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="КомбинауииПарЧиселКонтекстноеМеню" id="30"/>
+											<AutoCommandBar name="КомбинауииПарЧиселКоманднаяПанель" id="31"/>
+											<ExtendedTooltip name="КомбинауииПарЧиселРасширеннаяПодсказка" id="32"/>
+											<SearchStringAddition name="КомбинауииПарЧиселСтрокаПоиска" id="33">
+												<AdditionSource>
+													<Item>КомбинауииПарЧисел</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="КомбинауииПарЧиселСтрокаПоискаКонтекстноеМеню" id="34"/>
+												<ExtendedTooltip name="КомбинауииПарЧиселСтрокаПоискаРасширеннаяПодсказка" id="35"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="КомбинауииПарЧиселСостояниеПросмотра" id="36">
+												<AdditionSource>
+													<Item>КомбинауииПарЧисел</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="КомбинауииПарЧиселСостояниеПросмотраКонтекстноеМеню" id="37"/>
+												<ExtendedTooltip name="КомбинауииПарЧиселСостояниеПросмотраРасширеннаяПодсказка" id="38"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="КомбинауииПарЧиселУправлениеПоиском" id="39">
+												<AdditionSource>
+													<Item>КомбинауииПарЧисел</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="КомбинауииПарЧиселУправлениеПоискомКонтекстноеМеню" id="40"/>
+												<ExtendedTooltip name="КомбинауииПарЧиселУправлениеПоискомРасширеннаяПодсказка" id="41"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="КомбинауииПарЧиселЧисло1" id="45">
+													<DataPath>Объект.КомбинауииПарЧисел.Число1</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="КомбинауииПарЧиселЧисло1КонтекстноеМеню" id="46"/>
+													<ExtendedTooltip name="КомбинауииПарЧиселЧисло1РасширеннаяПодсказка" id="47"/>
+												</InputField>
+												<InputField name="КомбинауииПарЧиселЧисло2" id="48">
+													<DataPath>Объект.КомбинауииПарЧисел.Число2</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="КомбинауииПарЧиселЧисло2КонтекстноеМеню" id="49"/>
+													<ExtendedTooltip name="КомбинауииПарЧиселЧисло2РасширеннаяПодсказка" id="50"/>
+												</InputField>
+												<InputField name="КомбинауииПарЧиселКоличество" id="51">
+													<DataPath>Объект.КомбинауииПарЧисел.Количество</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="КомбинауииПарЧиселКоличествоКонтекстноеМеню" id="52"/>
+													<ExtendedTooltip name="КомбинауииПарЧиселКоличествоРасширеннаяПодсказка" id="53"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+								<Page name="Группа10" id="110">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сколько раз число в паре</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="Группа10РасширеннаяПодсказка" id="111"/>
+									<ChildItems>
+										<Table name="СколькоРазЧислоВПаре" id="112">
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Объект.СколькоРазЧислоВПаре</DataPath>
+											<CommandSet>
+												<ExcludedCommand>Add</ExcludedCommand>
+												<ExcludedCommand>CancelSearch</ExcludedCommand>
+												<ExcludedCommand>Change</ExcludedCommand>
+												<ExcludedCommand>Copy</ExcludedCommand>
+												<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+												<ExcludedCommand>EndEdit</ExcludedCommand>
+												<ExcludedCommand>Find</ExcludedCommand>
+												<ExcludedCommand>OutputList</ExcludedCommand>
+												<ExcludedCommand>SelectAll</ExcludedCommand>
+												<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+												<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+											</CommandSet>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="СколькоРазЧислоВПареКонтекстноеМеню" id="113"/>
+											<AutoCommandBar name="СколькоРазЧислоВПареКоманднаяПанель" id="114"/>
+											<ExtendedTooltip name="СколькоРазЧислоВПареРасширеннаяПодсказка" id="115"/>
+											<SearchStringAddition name="СколькоРазЧислоВПареСтрокаПоиска" id="116">
+												<AdditionSource>
+													<Item>СколькоРазЧислоВПаре</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СколькоРазЧислоВПареСтрокаПоискаКонтекстноеМеню" id="117"/>
+												<ExtendedTooltip name="СколькоРазЧислоВПареСтрокаПоискаРасширеннаяПодсказка" id="118"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="СколькоРазЧислоВПареСостояниеПросмотра" id="119">
+												<AdditionSource>
+													<Item>СколькоРазЧислоВПаре</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="СколькоРазЧислоВПареСостояниеПросмотраКонтекстноеМеню" id="120"/>
+												<ExtendedTooltip name="СколькоРазЧислоВПареСостояниеПросмотраРасширеннаяПодсказка" id="121"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="СколькоРазЧислоВПареУправлениеПоиском" id="122">
+												<AdditionSource>
+													<Item>СколькоРазЧислоВПаре</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="СколькоРазЧислоВПареУправлениеПоискомКонтекстноеМеню" id="123"/>
+												<ExtendedTooltip name="СколькоРазЧислоВПареУправлениеПоискомРасширеннаяПодсказка" id="124"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<InputField name="СколькоРазЧислоВПареЧисло" id="128">
+													<DataPath>Объект.СколькоРазЧислоВПаре.Число</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СколькоРазЧислоВПареЧислоКонтекстноеМеню" id="129"/>
+													<ExtendedTooltip name="СколькоРазЧислоВПареЧислоРасширеннаяПодсказка" id="130"/>
+												</InputField>
+												<InputField name="СколькоРазЧислоВПареКоличество" id="131">
+													<DataPath>Объект.СколькоРазЧислоВПаре.Количество</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="СколькоРазЧислоВПареКоличествоКонтекстноеМеню" id="132"/>
+													<ExtendedTooltip name="СколькоРазЧислоВПареКоличествоРасширеннаяПодсказка" id="133"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</Page>
+							</ChildItems>
+						</Pages>
+					</ChildItems>
+				</Page>
+				<Page name="Группа11" id="134">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комбинации</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа11РасширеннаяПодсказка" id="135"/>
+					<ChildItems>
+						<UsualGroup name="Группа12" id="177">
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа12РасширеннаяПодсказка" id="178"/>
+							<ChildItems>
+								<Button name="СформироватьКомбинации" id="136">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.СформироватьКомбинации</CommandName>
+									<ExtendedTooltip name="СформироватьКомбинацииРасширеннаяПодсказка" id="137"/>
+								</Button>
+								<Button name="РассчитатьКоэффициентыПоСвоейКомбинации" id="179">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.РассчитатьКоэффициентыПоСвоейКомбинации</CommandName>
+									<ExtendedTooltip name="РассчитатьКоэффициентыПоСвоейКомбинацииРасширеннаяПодсказка" id="180"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="КомбинацииДляИгры" id="138">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.КомбинацииДляИгры</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КомбинацииДляИгрыКонтекстноеМеню" id="139"/>
+							<AutoCommandBar name="КомбинацииДляИгрыКоманднаяПанель" id="140"/>
+							<ExtendedTooltip name="КомбинацииДляИгрыРасширеннаяПодсказка" id="141"/>
+							<SearchStringAddition name="КомбинацииДляИгрыСтрокаПоиска" id="142">
+								<AdditionSource>
+									<Item>КомбинацииДляИгры</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомбинацииДляИгрыСтрокаПоискаКонтекстноеМеню" id="143"/>
+								<ExtendedTooltip name="КомбинацииДляИгрыСтрокаПоискаРасширеннаяПодсказка" id="144"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КомбинацииДляИгрыСостояниеПросмотра" id="145">
+								<AdditionSource>
+									<Item>КомбинацииДляИгры</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КомбинацииДляИгрыСостояниеПросмотраКонтекстноеМеню" id="146"/>
+								<ExtendedTooltip name="КомбинацииДляИгрыСостояниеПросмотраРасширеннаяПодсказка" id="147"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КомбинацииДляИгрыУправлениеПоиском" id="148">
+								<AdditionSource>
+									<Item>КомбинацииДляИгры</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КомбинацииДляИгрыУправлениеПоискомКонтекстноеМеню" id="149"/>
+								<ExtendedTooltip name="КомбинацииДляИгрыУправлениеПоискомРасширеннаяПодсказка" id="150"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<CheckBoxField name="КомбинацииДляИгрыПомтка" id="172">
+									<DataPath>Объект.КомбинацииДляИгры.Пометка</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="КомбинацииДляИгрыПомткаКонтекстноеМеню" id="173"/>
+									<ExtendedTooltip name="КомбинацииДляИгрыПомткаРасширеннаяПодсказка" id="174"/>
+								</CheckBoxField>
+								<InputField name="КомбинацииДляИгрыКомбинации" id="166">
+									<DataPath>Объект.КомбинацииДляИгры.Комбинация</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КомбинацииДляИгрыКомбинацииКонтекстноеМеню" id="167"/>
+									<ExtendedTooltip name="КомбинацииДляИгрыКомбинацииРасширеннаяПодсказка" id="168"/>
+								</InputField>
+								<InputField name="КомбинацииДляИгрыКоэффициентЧастоты" id="154">
+									<DataPath>Объект.КомбинацииДляИгры.КоэффициентСуммарности</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>4</MaxWidth>
+									<ContextMenu name="КомбинацииДляИгрыКоэффициентЧастотыКонтекстноеМеню" id="155"/>
+									<ExtendedTooltip name="КомбинацииДляИгрыКоэффициентЧастотыРасширеннаяПодсказка" id="156"/>
+								</InputField>
+								<InputField name="КомбинацииДляИгрыКоэффициентАктивности" id="160">
+									<DataPath>Объект.КомбинацииДляИгры.КоэффициентАктивности</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КомбинацииДляИгрыКоэффициентАктивностиКонтекстноеМеню" id="161"/>
+									<ExtendedTooltip name="КомбинацииДляИгрыКоэффициентАктивностиРасширеннаяПодсказка" id="162"/>
+								</InputField>
+								<InputField name="КомбинацииДляИгрыКоэффициентВзаимодействия" id="157">
+									<DataPath>Объект.КомбинацииДляИгры.КоэффициентВзаимодействия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>5</MaxWidth>
+									<ContextMenu name="КомбинацииДляИгрыКоэффициентВзаимодействияКонтекстноеМеню" id="158"/>
+									<ExtendedTooltip name="КомбинацииДляИгрыКоэффициентВзаимодействияРасширеннаяПодсказка" id="159"/>
+								</InputField>
+								<InputField name="КомбинацииДляИгрыКоэффициентОбщий" id="163">
+									<DataPath>Объект.КомбинацииДляИгры.КоэффициентОбщий</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КомбинацииДляИгрыКоэффициентОбщийКонтекстноеМеню" id="164"/>
+									<ExtendedTooltip name="КомбинацииДляИгрыКоэффициентОбщийРасширеннаяПодсказка" id="165"/>
+								</InputField>
+								<InputField name="КомбинацииДляИгрыКомментарий" id="169">
+									<DataPath>Объект.КомбинацииДляИгры.Комментарий</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="КомбинацииДляИгрыКомментарийКонтекстноеМеню" id="170"/>
+									<ExtendedTooltip name="КомбинацииДляИгрыКомментарийРасширеннаяПодсказка" id="171"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.СтатистикаЧисел</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Число1" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ч.1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Число2" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ч.2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Число3" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ч.3</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Число4" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ч.4</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Число5" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ч.5</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Число6" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ч.6</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Число7" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ч.7</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КоличествоТиражей" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество тиражей для отбора</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВсегоТиражей" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего тиражей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НомерПоследнегоТиража" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер последнего тиража</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗапонитьЧастоВыпадающие" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запонить часто выпадающие</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запонить часто выпадающие</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапонитьЧастоВыпадающие</Action>
+		</Command>
+		<Command name="РассчитатьКомбинации" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать комбинации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РассчитатьКомбинации</Action>
+		</Command>
+		<Command name="ОчиститьКомбинации" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить </v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить комбинации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьКомбинации</Action>
+		</Command>
+		<Command name="СформироватьКомбинации" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать комбинации</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать комбинации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СформироватьКомбинации</Action>
+		</Command>
+		<Command name="РассчитатьКоэффициентыПоСвоейКомбинации" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать коэффициенты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать коэффициенты по своей комбинации</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РассчитатьКоэффициентыПоСвоейКомбинации</Action>
+		</Command>
+	</Commands>
+</Form>

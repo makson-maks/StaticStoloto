@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.8">
+	<ConfigVersions>
+		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер" id="4e7ad18c-706b-4b3d-b748-de21d03c4c7a" configVersion="f3202d29f17ae74890393985b1e6176100000000"/>
+		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер.Module" id="4e7ad18c-706b-4b3d-b748-de21d03c4c7a.0" configVersion="7a20a6f6ccfb5044b6b35ea0c70849fc00000000"/>
+		<Metadata name="Configuration.СтатистикаЧиселСТОЛОТО" id="2ccc9dcc-528c-45cb-a29f-2da10b55b1a2" configVersion="e66d9c538fda9049a85a536f35c4c91600000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных" id="f9cf503f-ede1-4c89-84a8-4114ae51c16b" configVersion="8a143365124fbd44b5298f0d2f6d800500000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных.Form.Форма" id="1a746f78-521d-4c8b-a9fc-4fa6fe4ed525" configVersion="b08258b657b0d94b86e18d1abc91bd3100000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных.Form.Форма.Form" id="1a746f78-521d-4c8b-a9fc-4fa6fe4ed525.0" configVersion="3a22ee2849225b43bfde140814a2728d00000000"/>
+		<Metadata name="DataProcessor.СтатистикаЧисел" id="5e6878db-4888-43b7-ad0f-e5b2ba85f78e" configVersion="8a6f8b70b55d084a8f2e5e5e3e355b9500000000">
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинауииПарЧисел.Attribute.Число1" id="0fc82207-ad27-4d89-a6a1-cd456fdf4c91"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.ЧислаМаксимальноВыпадавшие.Attribute.КоличествоТиражейНазад" id="149b7d62-40f6-42fb-b511-5cb833df5d1c"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.СколькоРазЧислоВПаре.Attribute.Количество" id="1a560b2c-bc4a-411f-af69-6750c7d15d70"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.КоэффициентАктивности" id="283fd47b-5bc3-453a-95ca-169c01309a94"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.ЧислаМаксимальноВыпадавшие.Attribute.Частота" id="2d2f197d-77a1-4b15-ae6e-6b78ba3e1d68"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинауииПарЧисел" id="70beb600-4bc6-4987-b5b8-42e207f5d5c0"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.ЧислаМаксимальноВыпадавшие.Attribute.Количество" id="8f6fccbd-c382-4ade-9977-fef487bcc2d9"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.КоэффициентВзаимодействия" id="940fcede-e571-40e9-90d0-c33206f0873f"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры" id="97ad9335-e80c-4c52-992c-9fe05e50cef4"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинауииПарЧисел.Attribute.Число2" id="a80cb7c1-eac1-4cfb-a17d-1ef1c91af7b1"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.Комбинация" id="b38c33f8-1bbd-4719-ad84-ed5c916ce8a7"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.КоэффициентОбщий" id="b6ffb51e-e3cb-44bb-b98e-e7d08b28b451"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.СколькоРазЧислоВПаре.Attribute.Число" id="b84398fc-ea74-4229-9fe2-f8a2e8f4042f"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.ЧислаМаксимальноВыпадавшие.Attribute.Число" id="caf9410e-0086-4805-b581-6137b35fa41c"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.СколькоРазЧислоВПаре" id="d9bdafe1-567d-42fe-9525-5b891ce3f79a"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.ЧислаМаксимальноВыпадавшие" id="ddf196e9-3d38-45bd-a62d-fe440a7bf6f0"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.Комментарий" id="e5a38673-fed3-4cc9-8049-4151cf9e3d58"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинауииПарЧисел.Attribute.Количество" id="ec619450-bd79-4ad2-824c-69c69908afc0"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.Пометка" id="ee299621-80a7-4609-a315-2b96687cf7ef"/>
+			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.КоэффициентСуммарности" id="f9ecf7b5-b6ca-47ee-8508-3fac4e0bbb7f"/>
+		</Metadata>
+		<Metadata name="DataProcessor.СтатистикаЧисел.Form.Форма" id="65a49142-11f3-4b7c-b32c-8e99a3050f1a" configVersion="128920a9a936104ea332183ed013b4a200000000"/>
+		<Metadata name="DataProcessor.СтатистикаЧисел.Form.Форма.Form" id="65a49142-11f3-4b7c-b32c-8e99a3050f1a.0" configVersion="ae5dbd6b41fc8741b050fc07096d282100000000"/>
+		<Metadata name="InformationRegister.КомбинацииЧисел_7_49" id="300f805b-1b26-43e9-b33d-e8b80832d300" configVersion="72371575d0a72249bc63dabe75ac11a100000000">
+			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число2" id="345f2f48-dacb-4029-ab4a-f6d560b464a2"/>
+			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число4" id="49046432-cb65-4dc1-bce0-989f7fc8622c"/>
+			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число5" id="d7d01bb9-a2d1-46a0-9539-f7a22af904f2"/>
+			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число1" id="e59181ed-d003-4495-a52c-ecd26e115890"/>
+			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число7" id="ee5df3b2-0004-41ed-bdbe-2fdf7ac4bd12"/>
+			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.НомерТиража" id="f2cb84db-c7b1-42cf-85e6-7b8fed87f3ce"/>
+			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число3" id="f46f2fad-7eb5-4058-b79a-9c10cfd317b6"/>
+			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число6" id="f5604844-17d1-4605-b2b3-71b715ae0870"/>
+		</Metadata>
+		<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Form.ФормаЗаписи" id="e946b031-4da8-4211-8e9a-8741b60d5e69" configVersion="29cf22cde5cf4746b4a52df8722cf79800000000"/>
+		<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Form.ФормаЗаписи.Form" id="e946b031-4da8-4211-8e9a-8741b60d5e69.0" configVersion="894b7f8b8bd1b24490b0d09ed76fc09500000000"/>
+		<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Form.ФормаСписка" id="e347ecec-292e-4021-999f-a715c24322d2" configVersion="d2b5cc30507a5e40ba915e1fab74f14a00000000"/>
+		<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Form.ФормаСписка.Form" id="e347ecec-292e-4021-999f-a715c24322d2.0" configVersion="fe51658e66b2d341a62ea7140db02b1c00000000"/>
+		<Metadata name="InformationRegister.ПоследнийНомерТиража_7_49" id="1423d336-d70a-4ddf-9ac8-212f56a7e27d" configVersion="8149bda87545014da9667058110dea8c00000000">
+			<Metadata name="InformationRegister.ПоследнийНомерТиража_7_49.Resource.НомерТиража" id="9c9415bc-c418-46ae-acda-c61b0d4b7a8e"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="f7a54346-fe9d-4920-9e8a-ed0ff835508b" configVersion="d83d1081f7075b4783be1cfb8a38b5cc00000000"/>
+		<Metadata name="Role.ПолныеПрава" id="50cd978b-293f-4b21-9d3d-fe1bc3ea0d56" configVersion="2db72d1bced24b489673e7bcc8f296a300000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="50cd978b-293f-4b21-9d3d-fe1bc3ea0d56.0" configVersion="423853913beca941be3d9e00fa81a6f000000000"/>
+		<Metadata name="StyleItem.ЭлементСтиля1" id="abb9ba7f-ae5b-4321-b910-ddbb4aa8e020" configVersion="bf1086f99e9f364bbbf4dd37469365df00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
