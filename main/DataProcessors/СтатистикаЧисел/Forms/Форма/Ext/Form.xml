@@ -448,6 +448,7 @@
 								<InputField name="КомбинацииДляИгрыКомбинации" id="166">
 									<DataPath>Объект.КомбинацииДляИгры.Комбинация</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<SpecialTextInputMode>Digits</SpecialTextInputMode>
 									<ContextMenu name="КомбинацииДляИгрыКомбинацииКонтекстноеМеню" id="167"/>
 									<ExtendedTooltip name="КомбинацииДляИгрыКомбинацииРасширеннаяПодсказка" id="168"/>
 								</InputField>

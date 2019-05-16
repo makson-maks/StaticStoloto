@@ -29,8 +29,8 @@
 			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.Пометка" id="ee299621-80a7-4609-a315-2b96687cf7ef"/>
 			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.КоэффициентСуммарности" id="f9ecf7b5-b6ca-47ee-8508-3fac4e0bbb7f"/>
 		</Metadata>
-		<Metadata name="DataProcessor.СтатистикаЧисел.Form.Форма" id="65a49142-11f3-4b7c-b32c-8e99a3050f1a" configVersion="128920a9a936104ea332183ed013b4a200000000"/>
-		<Metadata name="DataProcessor.СтатистикаЧисел.Form.Форма.Form" id="65a49142-11f3-4b7c-b32c-8e99a3050f1a.0" configVersion="ae5dbd6b41fc8741b050fc07096d282100000000"/>
+		<Metadata name="DataProcessor.СтатистикаЧисел.Form.Форма" id="65a49142-11f3-4b7c-b32c-8e99a3050f1a" configVersion="48dbae0c1065db47b7d03f3acc97c8ee00000000"/>
+		<Metadata name="DataProcessor.СтатистикаЧисел.Form.Форма.Form" id="65a49142-11f3-4b7c-b32c-8e99a3050f1a.0" configVersion="97e53820c935924fb508a33a4349aca600000000"/>
 		<Metadata name="InformationRegister.КомбинацииЧисел_7_49" id="300f805b-1b26-43e9-b33d-e8b80832d300" configVersion="72371575d0a72249bc63dabe75ac11a100000000">
 			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число2" id="345f2f48-dacb-4029-ab4a-f6d560b464a2"/>
 			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число4" id="49046432-cb65-4dc1-bce0-989f7fc8622c"/>
