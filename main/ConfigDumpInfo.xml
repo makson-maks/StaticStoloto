@@ -3,7 +3,7 @@
 	<ConfigVersions>
 		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер" id="4e7ad18c-706b-4b3d-b748-de21d03c4c7a" configVersion="f3202d29f17ae74890393985b1e6176100000000"/>
 		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер.Module" id="4e7ad18c-706b-4b3d-b748-de21d03c4c7a.0" configVersion="7a20a6f6ccfb5044b6b35ea0c70849fc00000000"/>
-		<Metadata name="Configuration.СтатистикаЧиселСТОЛОТО" id="2ccc9dcc-528c-45cb-a29f-2da10b55b1a2" configVersion="e66d9c538fda9049a85a536f35c4c91600000000"/>
+		<Metadata name="Configuration.СтатистикаЧиселСТОЛОТО" id="2ccc9dcc-528c-45cb-a29f-2da10b55b1a2" configVersion="ff0a1be33e7b28449916b181509a0e6a00000000"/>
 		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных" id="f9cf503f-ede1-4c89-84a8-4114ae51c16b" configVersion="8a143365124fbd44b5298f0d2f6d800500000000"/>
 		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных.Form.Форма" id="1a746f78-521d-4c8b-a9fc-4fa6fe4ed525" configVersion="b08258b657b0d94b86e18d1abc91bd3100000000"/>
 		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных.Form.Форма.Form" id="1a746f78-521d-4c8b-a9fc-4fa6fe4ed525.0" configVersion="3a22ee2849225b43bfde140814a2728d00000000"/>
@@ -29,8 +29,19 @@
 			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.Пометка" id="ee299621-80a7-4609-a315-2b96687cf7ef"/>
 			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинацииДляИгры.Attribute.КоэффициентСуммарности" id="f9ecf7b5-b6ca-47ee-8508-3fac4e0bbb7f"/>
 		</Metadata>
-		<Metadata name="DataProcessor.СтатистикаЧисел.Form.Форма" id="65a49142-11f3-4b7c-b32c-8e99a3050f1a" configVersion="48dbae0c1065db47b7d03f3acc97c8ee00000000"/>
-		<Metadata name="DataProcessor.СтатистикаЧисел.Form.Форма.Form" id="65a49142-11f3-4b7c-b32c-8e99a3050f1a.0" configVersion="97e53820c935924fb508a33a4349aca600000000"/>
+		<Metadata name="DataProcessor.СтатистикаЧисел.Form.Форма" id="65a49142-11f3-4b7c-b32c-8e99a3050f1a" configVersion="cddd4744d226ed4a85ed8e5d89cfcda300000000"/>
+		<Metadata name="DataProcessor.СтатистикаЧисел.Form.Форма.Form" id="65a49142-11f3-4b7c-b32c-8e99a3050f1a.0" configVersion="da05802e5733bd469c4984cc6b2ce6f400000000"/>
+		<Metadata name="InformationRegister.История_7_49" id="f90bddce-ad3f-4b8a-83a8-6dce656a5d87" configVersion="25c033a8cf9dbc4595bb6493fa669f9800000000">
+			<Metadata name="InformationRegister.История_7_49.Resource.Число3" id="19190825-099d-4289-be4a-e9f11f504338"/>
+			<Metadata name="InformationRegister.История_7_49.Resource.Число5" id="2951c5b9-e7f4-4650-abd6-2585faf1ee8c"/>
+			<Metadata name="InformationRegister.История_7_49.Attribute.СуммаВыйгрыша" id="35fbb2c4-c4c5-43d3-be3e-231e9c77e38c"/>
+			<Metadata name="InformationRegister.История_7_49.Resource.Число1" id="39076485-4458-458e-9902-2bbb51d2008e"/>
+			<Metadata name="InformationRegister.История_7_49.Dimension.НомерТиража" id="65404e28-c97b-4e2d-a490-bd5a457f2c04"/>
+			<Metadata name="InformationRegister.История_7_49.Resource.Число2" id="69c8c089-873a-4a80-b1fc-43baae0b3ef1"/>
+			<Metadata name="InformationRegister.История_7_49.Resource.Число7" id="798f9a3c-c209-4b88-880e-e6e957703174"/>
+			<Metadata name="InformationRegister.История_7_49.Resource.Число6" id="7d666b6d-407f-4d37-a2ae-9a9ddcedf924"/>
+			<Metadata name="InformationRegister.История_7_49.Resource.Число4" id="900da6b5-89fc-42d3-aeab-5ee99629f985"/>
+		</Metadata>
 		<Metadata name="InformationRegister.КомбинацииЧисел_7_49" id="300f805b-1b26-43e9-b33d-e8b80832d300" configVersion="72371575d0a72249bc63dabe75ac11a100000000">
 			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число2" id="345f2f48-dacb-4029-ab4a-f6d560b464a2"/>
 			<Metadata name="InformationRegister.КомбинацииЧисел_7_49.Dimension.Число4" id="49046432-cb65-4dc1-bce0-989f7fc8622c"/>

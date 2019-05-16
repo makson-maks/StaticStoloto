@@ -212,6 +212,11 @@
 									<CommandName>Form.Command.ОчиститьКомбинации</CommandName>
 									<ExtendedTooltip name="ОчиститьКомбинацииРасширеннаяПодсказка" id="87"/>
 								</Button>
+								<Button name="ДобавитьВИсторию" id="181">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ДобавитьВИсторию</CommandName>
+									<ExtendedTooltip name="ДобавитьВИсториюРасширеннаяПодсказка" id="182"/>
+								</Button>
 							</ChildItems>
 						</UsualGroup>
 						<Pages name="Группа7" id="108">
@@ -736,6 +741,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>РассчитатьКоэффициентыПоСвоейКомбинации</Action>
+		</Command>
+		<Command name="ДобавитьВИсторию" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в историю</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить в историю</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьВИсторию</Action>
 		</Command>
 	</Commands>
 </Form>

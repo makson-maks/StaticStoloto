@@ -145,6 +145,7 @@
 			<DataProcessor>ВыгрузкаЗагрузкаДанных</DataProcessor>
 			<InformationRegister>КомбинацииЧисел_7_49</InformationRegister>
 			<InformationRegister>ПоследнийНомерТиража_7_49</InformationRegister>
+			<InformationRegister>История_7_49</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
