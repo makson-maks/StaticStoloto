@@ -5,8 +5,8 @@
 		<Metadata name="CommonModule.СтроковыеФункцииКлиентСервер.Module" id="4e7ad18c-706b-4b3d-b748-de21d03c4c7a.0" configVersion="7a20a6f6ccfb5044b6b35ea0c70849fc00000000"/>
 		<Metadata name="Configuration.СтатистикаЧиселСТОЛОТО" id="2ccc9dcc-528c-45cb-a29f-2da10b55b1a2" configVersion="ff0a1be33e7b28449916b181509a0e6a00000000"/>
 		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных" id="f9cf503f-ede1-4c89-84a8-4114ae51c16b" configVersion="8a143365124fbd44b5298f0d2f6d800500000000"/>
-		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных.Form.Форма" id="1a746f78-521d-4c8b-a9fc-4fa6fe4ed525" configVersion="b08258b657b0d94b86e18d1abc91bd3100000000"/>
-		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных.Form.Форма.Form" id="1a746f78-521d-4c8b-a9fc-4fa6fe4ed525.0" configVersion="3a22ee2849225b43bfde140814a2728d00000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных.Form.Форма" id="1a746f78-521d-4c8b-a9fc-4fa6fe4ed525" configVersion="88141cbfa66a21499ff8b5cf077beaa500000000"/>
+		<Metadata name="DataProcessor.ВыгрузкаЗагрузкаДанных.Form.Форма.Form" id="1a746f78-521d-4c8b-a9fc-4fa6fe4ed525.0" configVersion="9f8e4d1ed34f054bb77506156f718d2700000000"/>
 		<Metadata name="DataProcessor.СтатистикаЧисел" id="5e6878db-4888-43b7-ad0f-e5b2ba85f78e" configVersion="8a6f8b70b55d084a8f2e5e5e3e355b9500000000">
 			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.КомбинауииПарЧисел.Attribute.Число1" id="0fc82207-ad27-4d89-a6a1-cd456fdf4c91"/>
 			<Metadata name="DataProcessor.СтатистикаЧисел.TabularSection.ЧислаМаксимальноВыпадавшие.Attribute.КоличествоТиражейНазад" id="149b7d62-40f6-42fb-b511-5cb833df5d1c"/>
